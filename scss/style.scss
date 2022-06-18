@@ -1,0 +1,26 @@
+@import "_header";
+
+
+body {
+   font-size: 50px;
+
+   div {
+      font-size: 35px;
+      color: aqua;
+   }
+}
+
+.title {
+   text-transform: uppercase;
+}
+.block {
+
+   &__item {
+      margin-left: 50px;
+      font-size: 28px;
+   }
+
+   &__item--last {
+      text-decoration: underline;
+   }
+}
